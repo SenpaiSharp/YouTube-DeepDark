@@ -1699,7 +1699,11 @@
 	#logo-icon-container.ytd-topbar-logo-renderer svg g path[fill*="#FF0000"],
 	ytd-topbar-logo-renderer.style-scope a svg > g > g:nth-child(1) > path
 	{
-		fill: var(--main-color) !important;
+		fill: var(--dimmer-text) !important;
+	}
+	#logo-icon-container.ytd-topbar-logo-renderer svg g polygon[fill*="#FFFFFF"],
+	ytd-topbar-logo-renderer.style-scope a svg > g > g:nth-child(1) > polygon {
+        fill: var(--second-background) !important;
 	}
 	ytd-topbar-logo-renderer.style-scope a svg > g > g:nth-child(2) > g,
 	#country-code.ytd-topbar-logo-renderer
